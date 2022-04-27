@@ -31,10 +31,12 @@ const destCardCreator = () => {
         destCardHtml += `
         <div class="destination-card">
             <h3 class="destination-name">${area.areaName}</h3>
+            <div class="service-list-div">
             <h4>Services</h4>
             <ul class="destination-card-service-list">
                 ${destServicesList(parkAreaId)}
             </ul>
+            </div>
         </div>
         `
     }

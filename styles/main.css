@@ -1,3 +1,44 @@
 * {
     border: solid red 1px;
 }
+
+
+html {
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Heebo', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header-logo {
+    width: 7rem;
+}
+
+.main-section-container {
+    display: flex;
+}
+
+.destination-section {
+    text-align: center;
+}
+
+.destination-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.destination-card {
+    width: 30%;
+}
+
+.service-list-div {
+    text-align: left;
+}
+
+.guests-section {
+    width: 30%;
+}
