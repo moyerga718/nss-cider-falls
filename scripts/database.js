@@ -239,7 +239,7 @@ const database = {
             fullName: "Jister Dintonomore",
             currentParkAreaId: 1
         },
-    ]
+    ],
 }
 
 export const getParkAreas = () => {
