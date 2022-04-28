@@ -6,27 +6,33 @@ const database = {
     parkAreas: [
         {
             id: 1,
-            areaName: "Chamfort River"
+            areaName: "Chamfort River",
+            imgURL: "https://img.traveltriangle.com/blog/wp-content/uploads/2018/11/Rivers-of-the-World-Cover.jpg"
         },
         {
             id: 2,
-            areaName: "Lost Wolf Hiking Trail"
+            areaName: "Lost Wolf Hiking Trail",
+            imgURL: "https://ftw.usatoday.com/wp-content/uploads/sites/90/2021/10/Julie2-2.jpg?w=1000&h=600&crop=1"
         },
         {
             id: 3,
-            areaName: "The Lodge"
+            areaName: "The Lodge",
+            imgURL: "https://25yearslatersite.com/wp-content/uploads/2019/08/new-statue.jpg"
         },
         {
             id: 4,
-            areaName: "Gander River"
+            areaName: "Gander River",
+            imgURL: "https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/Duck_River_reflections_-_20130915-143_HDR_4000x2200.jpg?crop=0,0,4000,2200&wid=4000&hei=2200&scl=1.0"
         },
         {
             id: 5,
-            areaName: "Campgrounds"
+            areaName: "Campgrounds",
+            imgURL: "https://northeastohiofamilyfun.com/wp-content/uploads/2020/05/Campgrounds-in-Ohio.jpg"
         },
         {
             id: 6,
-            areaName: "Pine Bluffs Trails"
+            areaName: "Pine Bluffs Trails",
+            imgURL: "https://i2.wp.com/stepintoblacksburg.org/wp-content/uploads/2019/03/hiking-trail-lg.jpg?fit=1568%2C1045&ssl=1"
         }
     ],
     services: [

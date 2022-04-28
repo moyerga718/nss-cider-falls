@@ -11,9 +11,11 @@ export const GuestsHTML = () => {
     const guestsHTML = `
     <section class="guests-section">
         <h2>Current Park Guests</h2>
-        <ul class="guest-list">
-            ${guestListHTML()} 
-        </ul>
+        <div class="guest-list-container">
+            <ul class="guest-list">
+                ${guestListHTML()} 
+            </ul>
+        </div>
     </section>
     `
     return guestsHTML

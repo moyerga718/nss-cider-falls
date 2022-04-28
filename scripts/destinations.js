@@ -20,9 +20,11 @@ export const DestinationHTML = () => {
     let htmlString = `
     <section class="destination-section">
         <h2 class="destination-section-title">Park Destinations</h2>
-        <h4><i>We're happy to offer the following services:</i></h4>
         <div class="service-bar-container">
-            ${serviceBarHTML()}
+            <h4><i>We're happy to offer the following services:</i></h4>
+            <div class="service-bar-list-container">
+                ${serviceBarHTML()}
+            </div>
         </div>
         <div class="destination-card-container">
             ${destCardCreator()}
@@ -38,12 +40,15 @@ const destCardCreator = () => {
         let parkAreaId = area.id
         destCardHtml += `
         <div class="destination-card">
-            <h3 class="destination-name" id="destinationID--${area.id}">${area.areaName}</h3>
-            <div class="service-list-div">
-            <h4>Services</h4>
-            <ul class="destination-card-service-list">
-                ${destServicesList(parkAreaId)}
-            </ul>
+            <img src="${area.imgURL}" alt="${area.areaName}" class="destination-card-image">
+            <div class="destination-card-text-div">
+                <h3 class="destination-name" id="destinationID--${area.id}">${area.areaName}</h3>
+                <div class="service-list-div">
+                <h4>Services</h4>
+                <ul class="destination-card-service-list">
+                    ${destServicesList(parkAreaId)}
+                </ul>
+                </div>
             </div>
         </div>
         `
