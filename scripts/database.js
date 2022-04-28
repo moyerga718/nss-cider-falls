@@ -14,7 +14,7 @@ const database = {
         },
         {
             id: 3,
-            areaName: "Lodge"
+            areaName: "The Lodge"
         },
         {
             id: 4,
@@ -238,6 +238,11 @@ const database = {
             id: 15,
             fullName: "Jister Dintonomore",
             currentParkAreaId: 1
+        },
+        {
+            id: 16,
+            fullName: "BRUUUUUUUUMPO Dintonomost",
+            currentParkAreaId: 3
         },
     ],
 }
